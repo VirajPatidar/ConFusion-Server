@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const Leaderships = require('../models/leaderships');
+const Leaderships = require('../models/leaders');
 
 
 const leaderRouter = express.Router();
