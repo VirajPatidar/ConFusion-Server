@@ -9,7 +9,7 @@ const cors = require('./cors');
 
 router.use(bodyParser.json());
 
-/* GET users listing. */
+/* GET users listing. */kf
 router.options('*', cors.corsWithOptions, (req, res) => { res.sendStatus(200); })
 router.get('/', cors.corsWithOptions, authenticate.verifyUser, authenticate.verifyAdmin, function (req, res, next) {
     User.find({})
